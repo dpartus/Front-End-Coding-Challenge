@@ -26,9 +26,8 @@ body, html {
 .hero-text{
     text-align: left;
     position: absolute;
-    top: 70%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 10%;
     color: white;
 }
 
@@ -84,9 +83,6 @@ body, html {
 }
 
 
-
-
-
 /* Action           */
 .how-header {
     text-align: center;
@@ -139,28 +135,41 @@ a:focus {
 /*  Media Queries   */
 
 /* Hero Changes */
-@media (max-width: 990px){
+@media (max-width: 1140px){
     .hero-text{
         text-align: left;
         position: absolute;
-        top: 50%;
-        left: 40%;
-        transform: translate(-50%, -50%);
+        top: 35%;
+        left: 10%;
         color: white;
     }
 }
 
-@media (max-width: 820px){
+@media (max-width: 920px){
     .hero-text{
         text-align: left;
         position: absolute;
-        top: 40%;
-        left: 40%;
-        transform: translate(-50%, -50%);
+        top: 25%;
+        left: 10%;
         color: white;
     }
 }
 
+@media (max-width: 780px){
+    .hero-text{
+        text-align: left;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: white;
+    }
+    .hero-header{
+        font-size: 30px;
+    }
+    .hero-paragraph{
+       font-size: 15px;
+    }
+}
 
 @media (max-width: 750px){
     .action-container{
